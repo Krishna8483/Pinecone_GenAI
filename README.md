@@ -45,7 +45,9 @@ To run this project, you will need to add the following environment variables to
 If you have any feedback, please reach out to us at krishnabhutada09710@gmail.com
 
 ## 🚀 About Me
-I'm a Data science enthusiast, an astronomy enthusiast, in love with stars , with love for digital marketing.
+## About Me
+
+I’m a Data Science enthusiast with a passion for unraveling insights from data. As an avid astronomy lover, I’m fascinated by the mysteries of the stars and the universe. In addition to my technical pursuits, I have a deep interest in digital marketing, combining creativity with data-driven strategies.
 
 
 ## 🔗 Links
@@ -54,11 +56,8 @@ I'm a Data science enthusiast, an astronomy enthusiast, in love with stars , wit
 
 
 ## 🛠 Skills
-Python with data science,Machine Learning,Deep Learning,NLP,GenAI
+Python with data science, Machine Learning, Deep Learning,NLP, GenAI
 
 ## Lessons Learned
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-A lot has been learned, from installing all the dependancies, understanding the problem statement and solving it with the help of documenation. I got to know more about the RAG application and GenAI and how it can be leveraged for the betterment of the society. 
-
+This project has been a fantastic learning experience, from setting up dependencies to diving deep into the problem statement and finding effective solutions through documentation. I expanded my understanding of Retrieval-Augmented Generation (RAG) and Generative AI (GenAI), and I’m excited by how these technologies can drive positive change in society. Each challenge I faced strengthened my skills and further fueled my curiosity for exploring innovative solutions.
