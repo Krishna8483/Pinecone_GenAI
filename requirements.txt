@@ -1,0 +1,6 @@
+langchain
+pinecone-client
+pypdf
+unstructured
+python-dotenv
+cohere
