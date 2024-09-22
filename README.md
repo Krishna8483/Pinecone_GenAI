@@ -4,9 +4,9 @@
 Retrieval-Augmented Generation (RAG) Model for QA Bot application.
 
 Implemented a QA bot using a Retrieval-Augmented Generation (RAG) model.
-Used Cohere embedding model for efficient embedding generation.
+Used Cohere, Pincone embedding model for efficient embedding generation.
 Used Pinecone DB for efficient document embedding storage and retrieval.
-Integrated a generative model using Ollama/Llama3 as GPT model.
+Integrated a generative model using Ollama/Llama3 as LLMs.
 
 ## Deployment
 
@@ -47,7 +47,7 @@ If you have any feedback, please reach out to us at krishnabhutada09710@gmail.co
 ## 🚀 About Me
 ## About Me
 
-I’m a Data Science enthusiast with a passion for unraveling insights from data. As an avid astronomy lover, I’m fascinated by the mysteries of the stars and the universe. In addition to my technical pursuits, I have a deep interest in digital marketing, combining creativity with data-driven strategies.
+I’m a Data Science enthusiast passionate about unraveling data insights. As an avid astronomy lover, I’m fascinated by the mysteries of the stars and the universe. In addition to my technical pursuits, I have a deep interest in digital marketing, combining creativity with data-driven strategies.
 
 
 ## 🔗 Links
@@ -56,7 +56,7 @@ I’m a Data Science enthusiast with a passion for unraveling insights from data
 
 
 ## 🛠 Skills
-Python with data science, Machine Learning, Deep Learning,NLP, GenAI
+Python with data science, Machine Learning, Deep Learning, NLP, GenAI
 
 ## Lessons Learned
 
