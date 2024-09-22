@@ -4,16 +4,16 @@
 Retrieval-Augmented Generation (RAG) Model for QA Bot application.
 
 Implemented a QA bot using a Retrieval-Augmented Generation (RAG) model.
-Used Cohere, Pincone embedding model for efficient embedding generation.
+Used Cohere embedding model for efficient embedding generation.
 Used Pinecone DB for efficient document embedding storage and retrieval.
-Integrated a generative model using Ollama/Llama3 as LLMs.
+Integrated a generative model using Ollama/Llama3 as GPT model.
 
 ## Deployment
 
 To deploy this project run
 
 ```bash
-  streamlit run rag.py
+   streamlit run rag.py
 ```
 
 
@@ -31,23 +31,22 @@ To deploy this project run
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`PINECONE_API_KEY`="bd737763-f992-40b3-923f-874a79415b24"(https://app.pinecone.io/organizations/-O4UH7Q77Hs3NxwfgMr-/projects/df066f74-6a84-4b43-a9fc-ae60821a7460/keys)
+`PINECONE_API_KEY`="YOUR_PINECONE_API_KEY"
 
-`COHERE_API_KEY`="3ABbfdoL7YGQmDTbxUMoLY5AZIYV0mntXkr25LW7"(https://dashboard.cohere.com/api-keys)
+(https://app.pinecone.io/organizations/-O4UH7Q77Hs3NxwfgMr-/projects/df066f74-6a84-4b43-a9fc-ae60821a7460/keys)
+
+`COHERE_API_KEY`="YOUTR_COHERE_API_KEY"
+
+(https://dashboard.cohere.com/api-keys)
 
 
 
 
 
 
-## Feedback
-
-If you have any feedback, please reach out to us at krishnabhutada09710@gmail.com
 
 ## 🚀 About Me
-## About Me
-
-I’m a Data Science enthusiast passionate about unraveling data insights. As an avid astronomy lover, I’m fascinated by the mysteries of the stars and the universe. In addition to my technical pursuits, I have a deep interest in digital marketing, combining creativity with data-driven strategies.
+I'm a Data science enthusiast, an astronomy enthusiast, in love with stars , with love for digital marketing.
 
 
 ## 🔗 Links
@@ -56,8 +55,32 @@ I’m a Data Science enthusiast passionate about unraveling data insights. As an
 
 
 ## 🛠 Skills
-Python with data science, Machine Learning, Deep Learning, NLP, GenAI
+Python with data science,Machine Learning,Deep Learning,NLP,GenAI
 
 ## Lessons Learned
 
-This project has been a fantastic learning experience, from setting up dependencies to diving deep into the problem statement and finding effective solutions through documentation. I expanded my understanding of Retrieval-Augmented Generation (RAG) and Generative AI (GenAI), and I’m excited by how these technologies can drive positive change in society. Each challenge I faced strengthened my skills and further fueled my curiosity for exploring innovative solutions.
+What did you learn while building this project? What challenges did you face and how did you overcome them?
+
+A lot has been learned, from installing all the dependancies, understanding the problem statement and solving it with the help of documenation. I got to know more about the RAG application and GenAI and how it can be leveraged for the betterment of the society. 
+
+
+## Architecture
+
+The model consists of two main components: Retriever and Generator.
+
+Retriever: Uses the Cohere model to generate embeddings for the input query.
+
+Pinecone Vector Database: Stores the document embeddings and retrieves the top relevant documents based on the query embeddings.
+
+Generator: The generative model (e.g., Ollama/Llama3) processes the retrieved documents and formulates a coherent response to the user’s query.
+
+## Feedback
+
+If you have any feedback, please reach out to us at krishnabhutada09710@gmail.com
+
+
+## Installation
+
+pip install -r reuirements.txt
+
+It installs all the required dependencies
