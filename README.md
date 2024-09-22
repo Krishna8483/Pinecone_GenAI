@@ -13,7 +13,7 @@ Integrated a generative model using Ollama/Llama3 as LLMs.
 To deploy this project run
 
 ```bash
-  streamlit run 'file_name.py'
+  streamlit run rag.py
 ```
 
 
@@ -31,9 +31,9 @@ To deploy this project run
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`PINECONE_API_KEY`="bd737763-f992-40b3-923f-874a79415b24"
+`PINECONE_API_KEY`="bd737763-f992-40b3-923f-874a79415b24"(https://app.pinecone.io/organizations/-O4UH7Q77Hs3NxwfgMr-/projects/df066f74-6a84-4b43-a9fc-ae60821a7460/keys)
 
-`COHERE_API_KEY`="3ABbfdoL7YGQmDTbxUMoLY5AZIYV0mntXkr25LW7"
+`COHERE_API_KEY`="3ABbfdoL7YGQmDTbxUMoLY5AZIYV0mntXkr25LW7"(https://dashboard.cohere.com/api-keys)
 
 
 
